@@ -1,0 +1,54 @@
+	
+{
+    "languages":[
+        
+        {
+            "LanguageName": "Chinese",
+            "Locale": "zh-CN"
+            
+        },
+        {
+            "LanguageName": "English (GB)",
+            "Locale": "en-GB"
+            
+        },
+        {
+            "LanguageName": "French",
+            "Locale": "fr-FR"
+            
+        },
+        {
+            "LanguageName":"German",
+            "Locale" : "de-DE"
+            
+        },
+        {
+            "LanguageName":"Italian",
+            "Locale" : "it-IT"
+            
+        },
+        {
+            "LanguageName":"Japanese",
+            "Locale": "ja-JP"
+            
+        },
+        {
+            "LanguageName":"Portuguese",
+            "Locale": "pt-PT"
+            
+        },
+        {
+            "LanguageName":"Spanish",
+            "Locale": "es-ES"
+            
+        },
+        {
+            "LanguageName":"Turkish",
+            "Locale": "tr-TR"
+            
+        }
+    ]
+
+}
+
+

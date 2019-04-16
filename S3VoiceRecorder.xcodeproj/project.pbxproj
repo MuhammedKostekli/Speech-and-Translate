@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51F203E8462CF07FF7F91A7E /* Pods_S3VoiceRecorderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BCE591A38EDB4E1A079A30 /* Pods_S3VoiceRecorderUITests.framework */; };
+		70FA6101F1250DD67D41D9E9 /* Pods_S3VoiceRecorderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2402E6A2D61ECAF7DDEFBF /* Pods_S3VoiceRecorderTests.framework */; };
+		8F24515A21CEBC8B00F69428 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F24515921CEBC8B00F69428 /* GoogleService-Info.plist */; };
+		8F35897E21DF93A30030708B /* BecomePremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F35897D21DF93A30030708B /* BecomePremiumViewController.swift */; };
+		8F3FAE1621D7AB5E00281C5E /* SelectLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3FAE1521D7AB5E00281C5E /* SelectLanguageViewController.swift */; };
+		8F3FAE1921D7C9EC00281C5E /* UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3FAE1821D7C9EC00281C5E /* UISearchBar.swift */; };
+		8F3FAE1B21D7CA5B00281C5E /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3FAE1A21D7CA5B00281C5E /* UIImage.swift */; };
+		8F3FAE1D21D7CBB500281C5E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3FAE1C21D7CBB500281C5E /* UIColor.swift */; };
+		8F3FAE1F21D8CA9F00281C5E /* LanguageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3FAE1E21D8CA9F00281C5E /* LanguageCell.swift */; };
+		8F3FAE2121D8D2FB00281C5E /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3FAE2021D8D2FB00281C5E /* CALayer.swift */; };
+		8F556C9021D606C4006A7AF1 /* FirstSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F556C8F21D606C4006A7AF1 /* FirstSceneViewController.swift */; };
+		8F950B0D21A5EF7C00F35EFE /* languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F950B0C21A5EF7C00F35EFE /* languages.json */; };
+		8FFDB82E21DCD4C700E32524 /* SpeechAndTranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFDB82D21DCD4C700E32524 /* SpeechAndTranslateViewController.swift */; };
+		8FFDB83021DD02EF00E32524 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFDB82F21DD02EF00E32524 /* UILabel.swift */; };
+		CEF1F7B321A4026A0079E3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1F7B221A4026A0079E3F1 /* AppDelegate.swift */; };
+		CEF1F7B821A4026A0079E3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF1F7B621A4026A0079E3F1 /* Main.storyboard */; };
+		CEF1F7BA21A4026B0079E3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF1F7B921A4026B0079E3F1 /* Assets.xcassets */; };
+		CEF1F7BD21A4026B0079E3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF1F7BB21A4026B0079E3F1 /* LaunchScreen.storyboard */; };
+		CEF1F7C821A4026B0079E3F1 /* S3VoiceRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1F7C721A4026B0079E3F1 /* S3VoiceRecorderTests.swift */; };
+		CEF1F7D321A4026B0079E3F1 /* S3VoiceRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1F7D221A4026B0079E3F1 /* S3VoiceRecorderUITests.swift */; };
+		CEF1F7E121A405BA0079E3F1 /* VoiceRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1F7E021A405BA0079E3F1 /* VoiceRecordViewController.swift */; };
+		CEF1F7E521A42F880079E3F1 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1F7E421A42F880079E3F1 /* Pulsing.swift */; };
+		E08B7D9FF41C7F18A3431749 /* Pods_S3VoiceRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64936BC7F0AB3AD26223B25B /* Pods_S3VoiceRecorder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF1F7C421A4026B0079E3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF1F7A721A402690079E3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF1F7AE21A402690079E3F1;
+			remoteInfo = S3VoiceRecorder;
+		};
+		CEF1F7CF21A4026B0079E3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF1F7A721A402690079E3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF1F7AE21A402690079E3F1;
+			remoteInfo = S3VoiceRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C11D735B714EB1F7D045B3F /* Pods-S3VoiceRecorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3VoiceRecorderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-S3VoiceRecorderTests/Pods-S3VoiceRecorderTests.release.xcconfig"; sourceTree = "<group>"; };
+		24549CE4404CBAA7AF090BB4 /* Pods-S3VoiceRecorderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3VoiceRecorderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-S3VoiceRecorderUITests/Pods-S3VoiceRecorderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3178461B8D93542C333C6327 /* Pods-S3VoiceRecorderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3VoiceRecorderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-S3VoiceRecorderUITests/Pods-S3VoiceRecorderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		642B6244CC83E6E549F39A8D /* Pods-S3VoiceRecorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3VoiceRecorderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-S3VoiceRecorderTests/Pods-S3VoiceRecorderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64936BC7F0AB3AD26223B25B /* Pods_S3VoiceRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S3VoiceRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BCE591A38EDB4E1A079A30 /* Pods_S3VoiceRecorderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S3VoiceRecorderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2402E6A2D61ECAF7DDEFBF /* Pods_S3VoiceRecorderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S3VoiceRecorderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F24515921CEBC8B00F69428 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8F35897D21DF93A30030708B /* BecomePremiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BecomePremiumViewController.swift; sourceTree = "<group>"; };
+		8F3FAE1521D7AB5E00281C5E /* SelectLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewController.swift; sourceTree = "<group>"; };
+		8F3FAE1821D7C9EC00281C5E /* UISearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchBar.swift; sourceTree = "<group>"; };
+		8F3FAE1A21D7CA5B00281C5E /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		8F3FAE1C21D7CBB500281C5E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8F3FAE1E21D8CA9F00281C5E /* LanguageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCell.swift; sourceTree = "<group>"; };
+		8F3FAE2021D8D2FB00281C5E /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		8F556C8F21D606C4006A7AF1 /* FirstSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSceneViewController.swift; sourceTree = "<group>"; };
+		8F950B0C21A5EF7C00F35EFE /* languages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = languages.json; sourceTree = "<group>"; };
+		8FFDB82D21DCD4C700E32524 /* SpeechAndTranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechAndTranslateViewController.swift; sourceTree = "<group>"; };
+		8FFDB82F21DD02EF00E32524 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		9087FFF49089527F26542B2B /* Pods-S3VoiceRecorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3VoiceRecorder.release.xcconfig"; path = "Pods/Target Support Files/Pods-S3VoiceRecorder/Pods-S3VoiceRecorder.release.xcconfig"; sourceTree = "<group>"; };
+		C92852BBB8E2059FD0EAF142 /* Pods-S3VoiceRecorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3VoiceRecorder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-S3VoiceRecorder/Pods-S3VoiceRecorder.debug.xcconfig"; sourceTree = "<group>"; };
+		CEF1F7AF21A4026A0079E3F1 /* S3VoiceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S3VoiceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF1F7B221A4026A0079E3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF1F7B721A4026A0079E3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF1F7B921A4026B0079E3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF1F7BC21A4026B0079E3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF1F7BE21A4026B0079E3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF1F7C321A4026B0079E3F1 /* S3VoiceRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S3VoiceRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF1F7C721A4026B0079E3F1 /* S3VoiceRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3VoiceRecorderTests.swift; sourceTree = "<group>"; };
+		CEF1F7C921A4026B0079E3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF1F7CE21A4026B0079E3F1 /* S3VoiceRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S3VoiceRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF1F7D221A4026B0079E3F1 /* S3VoiceRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3VoiceRecorderUITests.swift; sourceTree = "<group>"; };
+		CEF1F7D421A4026B0079E3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF1F7E021A405BA0079E3F1 /* VoiceRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordViewController.swift; sourceTree = "<group>"; };
+		CEF1F7E421A42F880079E3F1 /* Pulsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Pulsing.swift; path = ../Pulsing.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF1F7AC21A402690079E3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08B7D9FF41C7F18A3431749 /* Pods_S3VoiceRecorder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF1F7C021A4026B0079E3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70FA6101F1250DD67D41D9E9 /* Pods_S3VoiceRecorderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF1F7CB21A4026B0079E3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F203E8462CF07FF7F91A7E /* Pods_S3VoiceRecorderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119E779AFBCCB362E884F309 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C92852BBB8E2059FD0EAF142 /* Pods-S3VoiceRecorder.debug.xcconfig */,
+				9087FFF49089527F26542B2B /* Pods-S3VoiceRecorder.release.xcconfig */,
+				642B6244CC83E6E549F39A8D /* Pods-S3VoiceRecorderTests.debug.xcconfig */,
+				0C11D735B714EB1F7D045B3F /* Pods-S3VoiceRecorderTests.release.xcconfig */,
+				3178461B8D93542C333C6327 /* Pods-S3VoiceRecorderUITests.debug.xcconfig */,
+				24549CE4404CBAA7AF090BB4 /* Pods-S3VoiceRecorderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F3FAE1721D7C9DD00281C5E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8F3FAE1821D7C9EC00281C5E /* UISearchBar.swift */,
+				8F3FAE1A21D7CA5B00281C5E /* UIImage.swift */,
+				8F3FAE1C21D7CBB500281C5E /* UIColor.swift */,
+				8F3FAE2021D8D2FB00281C5E /* CALayer.swift */,
+				8FFDB82F21DD02EF00E32524 /* UILabel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8FD6932721D11DFD00E64137 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CEF1F7A621A402690079E3F1 = {
+			isa = PBXGroup;
+			children = (
+				CEF1F7B121A4026A0079E3F1 /* S3VoiceRecorder */,
+				CEF1F7C621A4026B0079E3F1 /* S3VoiceRecorderTests */,
+				CEF1F7D121A4026B0079E3F1 /* S3VoiceRecorderUITests */,
+				CEF1F7B021A4026A0079E3F1 /* Products */,
+				119E779AFBCCB362E884F309 /* Pods */,
+				E1E643D1C76A623633395491 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF1F7B021A4026A0079E3F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1F7AF21A4026A0079E3F1 /* S3VoiceRecorder.app */,
+				CEF1F7C321A4026B0079E3F1 /* S3VoiceRecorderTests.xctest */,
+				CEF1F7CE21A4026B0079E3F1 /* S3VoiceRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF1F7B121A4026A0079E3F1 /* S3VoiceRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				8F3FAE1721D7C9DD00281C5E /* Extensions */,
+				8FD6932721D11DFD00E64137 /* Images */,
+				CEF1F7B221A4026A0079E3F1 /* AppDelegate.swift */,
+				CEF1F7E421A42F880079E3F1 /* Pulsing.swift */,
+				CEF1F7E021A405BA0079E3F1 /* VoiceRecordViewController.swift */,
+				8F950B0C21A5EF7C00F35EFE /* languages.json */,
+				CEF1F7B621A4026A0079E3F1 /* Main.storyboard */,
+				8F35897D21DF93A30030708B /* BecomePremiumViewController.swift */,
+				8F3FAE1E21D8CA9F00281C5E /* LanguageCell.swift */,
+				8F3FAE1521D7AB5E00281C5E /* SelectLanguageViewController.swift */,
+				8FFDB82D21DCD4C700E32524 /* SpeechAndTranslateViewController.swift */,
+				8F556C8F21D606C4006A7AF1 /* FirstSceneViewController.swift */,
+				CEF1F7B921A4026B0079E3F1 /* Assets.xcassets */,
+				CEF1F7BB21A4026B0079E3F1 /* LaunchScreen.storyboard */,
+				8F24515921CEBC8B00F69428 /* GoogleService-Info.plist */,
+				CEF1F7BE21A4026B0079E3F1 /* Info.plist */,
+			);
+			path = S3VoiceRecorder;
+			sourceTree = "<group>";
+		};
+		CEF1F7C621A4026B0079E3F1 /* S3VoiceRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1F7C721A4026B0079E3F1 /* S3VoiceRecorderTests.swift */,
+				CEF1F7C921A4026B0079E3F1 /* Info.plist */,
+			);
+			path = S3VoiceRecorderTests;
+			sourceTree = "<group>";
+		};
+		CEF1F7D121A4026B0079E3F1 /* S3VoiceRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1F7D221A4026B0079E3F1 /* S3VoiceRecorderUITests.swift */,
+				CEF1F7D421A4026B0079E3F1 /* Info.plist */,
+			);
+			path = S3VoiceRecorderUITests;
+			sourceTree = "<group>";
+		};
+		E1E643D1C76A623633395491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64936BC7F0AB3AD26223B25B /* Pods_S3VoiceRecorder.framework */,
+				6A2402E6A2D61ECAF7DDEFBF /* Pods_S3VoiceRecorderTests.framework */,
+				64BCE591A38EDB4E1A079A30 /* Pods_S3VoiceRecorderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF1F7AE21A402690079E3F1 /* S3VoiceRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF1F7D721A4026B0079E3F1 /* Build configuration list for PBXNativeTarget "S3VoiceRecorder" */;
+			buildPhases = (
+				EE7426ACA7A533BBB83168B5 /* [CP] Check Pods Manifest.lock */,
+				CEF1F7AB21A402690079E3F1 /* Sources */,
+				CEF1F7AC21A402690079E3F1 /* Frameworks */,
+				CEF1F7AD21A402690079E3F1 /* Resources */,
+				AFC87FF1E61F04DAD7F46596 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = S3VoiceRecorder;
+			productName = S3VoiceRecorder;
+			productReference = CEF1F7AF21A4026A0079E3F1 /* S3VoiceRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF1F7C221A4026B0079E3F1 /* S3VoiceRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF1F7DA21A4026B0079E3F1 /* Build configuration list for PBXNativeTarget "S3VoiceRecorderTests" */;
+			buildPhases = (
+				5C606ED980B0CF34702073FD /* [CP] Check Pods Manifest.lock */,
+				CEF1F7BF21A4026B0079E3F1 /* Sources */,
+				CEF1F7C021A4026B0079E3F1 /* Frameworks */,
+				CEF1F7C121A4026B0079E3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF1F7C521A4026B0079E3F1 /* PBXTargetDependency */,
+			);
+			name = S3VoiceRecorderTests;
+			productName = S3VoiceRecorderTests;
+			productReference = CEF1F7C321A4026B0079E3F1 /* S3VoiceRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF1F7CD21A4026B0079E3F1 /* S3VoiceRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF1F7DD21A4026B0079E3F1 /* Build configuration list for PBXNativeTarget "S3VoiceRecorderUITests" */;
+			buildPhases = (
+				36FA93ECB2DA1FD401DB2E3E /* [CP] Check Pods Manifest.lock */,
+				CEF1F7CA21A4026B0079E3F1 /* Sources */,
+				CEF1F7CB21A4026B0079E3F1 /* Frameworks */,
+				CEF1F7CC21A4026B0079E3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF1F7D021A4026B0079E3F1 /* PBXTargetDependency */,
+			);
+			name = S3VoiceRecorderUITests;
+			productName = S3VoiceRecorderUITests;
+			productReference = CEF1F7CE21A4026B0079E3F1 /* S3VoiceRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF1F7A721A402690079E3F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kostekli;
+				TargetAttributes = {
+					CEF1F7AE21A402690079E3F1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CEF1F7C221A4026B0079E3F1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEF1F7AE21A402690079E3F1;
+					};
+					CEF1F7CD21A4026B0079E3F1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEF1F7AE21A402690079E3F1;
+					};
+				};
+			};
+			buildConfigurationList = CEF1F7AA21A402690079E3F1 /* Build configuration list for PBXProject "S3VoiceRecorder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF1F7A621A402690079E3F1;
+			productRefGroup = CEF1F7B021A4026A0079E3F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF1F7AE21A402690079E3F1 /* S3VoiceRecorder */,
+				CEF1F7C221A4026B0079E3F1 /* S3VoiceRecorderTests */,
+				CEF1F7CD21A4026B0079E3F1 /* S3VoiceRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF1F7AD21A402690079E3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF1F7BD21A4026B0079E3F1 /* LaunchScreen.storyboard in Resources */,
+				8F950B0D21A5EF7C00F35EFE /* languages.json in Resources */,
+				8F24515A21CEBC8B00F69428 /* GoogleService-Info.plist in Resources */,
+				CEF1F7BA21A4026B0079E3F1 /* Assets.xcassets in Resources */,
+				CEF1F7B821A4026A0079E3F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF1F7C121A4026B0079E3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF1F7CC21A4026B0079E3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36FA93ECB2DA1FD401DB2E3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-S3VoiceRecorderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C606ED980B0CF34702073FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-S3VoiceRecorderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC87FF1E61F04DAD7F46596 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-S3VoiceRecorder/Pods-S3VoiceRecorder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PaddingLabel/PaddingLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/ROGoogleTranslate/ROGoogleTranslate.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PaddingLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ROGoogleTranslate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-S3VoiceRecorder/Pods-S3VoiceRecorder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7426ACA7A533BBB83168B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-S3VoiceRecorder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF1F7AB21A402690079E3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3FAE1F21D8CA9F00281C5E /* LanguageCell.swift in Sources */,
+				8F35897E21DF93A30030708B /* BecomePremiumViewController.swift in Sources */,
+				CEF1F7E121A405BA0079E3F1 /* VoiceRecordViewController.swift in Sources */,
+				8F3FAE1921D7C9EC00281C5E /* UISearchBar.swift in Sources */,
+				8F3FAE1621D7AB5E00281C5E /* SelectLanguageViewController.swift in Sources */,
+				CEF1F7E521A42F880079E3F1 /* Pulsing.swift in Sources */,
+				8FFDB82E21DCD4C700E32524 /* SpeechAndTranslateViewController.swift in Sources */,
+				8F556C9021D606C4006A7AF1 /* FirstSceneViewController.swift in Sources */,
+				8F3FAE1D21D7CBB500281C5E /* UIColor.swift in Sources */,
+				CEF1F7B321A4026A0079E3F1 /* AppDelegate.swift in Sources */,
+				8F3FAE1B21D7CA5B00281C5E /* UIImage.swift in Sources */,
+				8FFDB83021DD02EF00E32524 /* UILabel.swift in Sources */,
+				8F3FAE2121D8D2FB00281C5E /* CALayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF1F7BF21A4026B0079E3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF1F7C821A4026B0079E3F1 /* S3VoiceRecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF1F7CA21A4026B0079E3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF1F7D321A4026B0079E3F1 /* S3VoiceRecorderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF1F7C521A4026B0079E3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF1F7AE21A402690079E3F1 /* S3VoiceRecorder */;
+			targetProxy = CEF1F7C421A4026B0079E3F1 /* PBXContainerItemProxy */;
+		};
+		CEF1F7D021A4026B0079E3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF1F7AE21A402690079E3F1 /* S3VoiceRecorder */;
+			targetProxy = CEF1F7CF21A4026B0079E3F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF1F7B621A4026A0079E3F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF1F7B721A4026A0079E3F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF1F7BB21A4026B0079E3F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF1F7BC21A4026B0079E3F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF1F7D521A4026B0079E3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF1F7D621A4026B0079E3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF1F7D821A4026B0079E3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92852BBB8E2059FD0EAF142 /* Pods-S3VoiceRecorder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = S3VoiceRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kostekli.SpeechTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF1F7D921A4026B0079E3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9087FFF49089527F26542B2B /* Pods-S3VoiceRecorder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = S3VoiceRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kostekli.SpeechTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEF1F7DB21A4026B0079E3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642B6244CC83E6E549F39A8D /* Pods-S3VoiceRecorderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J3N5YFN2U;
+				INFOPLIST_FILE = S3VoiceRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kostekli.S3VoiceRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/S3VoiceRecorder.app/S3VoiceRecorder";
+			};
+			name = Debug;
+		};
+		CEF1F7DC21A4026B0079E3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C11D735B714EB1F7D045B3F /* Pods-S3VoiceRecorderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J3N5YFN2U;
+				INFOPLIST_FILE = S3VoiceRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kostekli.S3VoiceRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/S3VoiceRecorder.app/S3VoiceRecorder";
+			};
+			name = Release;
+		};
+		CEF1F7DE21A4026B0079E3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3178461B8D93542C333C6327 /* Pods-S3VoiceRecorderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J3N5YFN2U;
+				INFOPLIST_FILE = S3VoiceRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kostekli.S3VoiceRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = S3VoiceRecorder;
+			};
+			name = Debug;
+		};
+		CEF1F7DF21A4026B0079E3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24549CE4404CBAA7AF090BB4 /* Pods-S3VoiceRecorderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J3N5YFN2U;
+				INFOPLIST_FILE = S3VoiceRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kostekli.S3VoiceRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = S3VoiceRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF1F7AA21A402690079E3F1 /* Build configuration list for PBXProject "S3VoiceRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF1F7D521A4026B0079E3F1 /* Debug */,
+				CEF1F7D621A4026B0079E3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF1F7D721A4026B0079E3F1 /* Build configuration list for PBXNativeTarget "S3VoiceRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF1F7D821A4026B0079E3F1 /* Debug */,
+				CEF1F7D921A4026B0079E3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF1F7DA21A4026B0079E3F1 /* Build configuration list for PBXNativeTarget "S3VoiceRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF1F7DB21A4026B0079E3F1 /* Debug */,
+				CEF1F7DC21A4026B0079E3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF1F7DD21A4026B0079E3F1 /* Build configuration list for PBXNativeTarget "S3VoiceRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF1F7DE21A4026B0079E3F1 /* Debug */,
+				CEF1F7DF21A4026B0079E3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF1F7A721A402690079E3F1 /* Project object */;
+}
